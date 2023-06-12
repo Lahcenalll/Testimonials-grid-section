@@ -52,7 +52,6 @@ main {
   box-shadow: 5px 20px 35px 5px rgba(15, 1, 53, 0.2);
 }
 
-
 /* This is the quotation image */
 .box-one {
   position: relative;
@@ -66,12 +65,11 @@ main {
 img {
   position: absolute;
   z-index: 0;
-  width: 150px;
+  width: 110px;
   top: 0;
-  right: 15%;
+  right: 7%;
 }
-
-
+/* End of quotation image  */
 
 .image {
   width: 35px;
@@ -160,6 +158,15 @@ p {
   }
 }
 
+@media all and (min-width: 470px) {
+  img {
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    top: 0;
+    right: 15%;
+  }
+}
 @media all and (min-width: 1440px) {
   body {
     height: 100vh;
@@ -199,3 +206,4 @@ p {
     right: 15%;
   }
 }
+
